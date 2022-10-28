@@ -158,7 +158,7 @@ header {
   justify-content: center;
   list-style: none;
   font-style: normal;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfolio-btn:hover,
@@ -207,8 +207,17 @@ header {
   background-color: rgba(33, 150, 243, 1);
 }
 
-.details-heading {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .details {
   padding-top: 94px;
@@ -348,6 +357,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-align: center;
+  margin: 0;
 }
 
 .cards {
@@ -420,4 +430,8 @@ img {
 .portfolio.section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.nav-link.active {
+  color: #2196f3;
 }
