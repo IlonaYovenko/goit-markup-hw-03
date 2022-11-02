@@ -239,6 +239,7 @@ header {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: start;
 }
 
 .details-description {
@@ -404,6 +405,11 @@ img {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.information:hover{
+  color: rgba(33, 150, 243, 1);
+}
+
 
 .footer-info {
   font-style: normal;
